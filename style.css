@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+margin: 0}
+.food-items{
+    width: 60%;
+   margin: 20px;  
+
+}
+
+.bill{
+    width: 10%;
+    margin: 30px;
+    
+}
+
+
+.food-items button{
+    padding: 5px 10px;
+    width: 50px;
+    background-color: transparent;
+    border:none;
+    font-size: 1rem;
+    
+    outline: none;
+}
+.food-items .btn-sub ,
+ .food-items .btn-add{
+     margin: 0px;
+    background-color: rgb(202, 3, 69);
+    color: white;
+
+}
+.food-items .btn-sub 
+ {
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.food-items .btn-price
+ {
+     font-size: 1rem;
+     width: 100px;
+   background-color: rgb(217, 224, 224);
+    
+}
+.item-container{
+ 
+    margin: 0px 5px;
+    border-bottom: 1px solid rgb(240, 240, 240); 
+    margin:0px 10px ;
+}
+
+ .food-items .btn-add{
+     border-radius: 0px 10px 10px 0px;
+ }
+.food-items .btn-num{
+    
+}
+.itemsbox
+{
+    border:1px solid rgb(241, 241, 241);   
+        height: 320px;
+        overflow-y: scroll;
+        
+    
+    
+}
+
+.paymentbox{
+
+width: 100%;
+    display: flex;
+    
+}
+.billbuttons{
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.billbuttons button{
+   padding: 10px 15px;
+   margin: 20px;
+   width: 150px;
+   background-color:rgb(202, 3, 69);
+   border: none;   
+   outline: none; 
+   color: white;
+   font-weight: 600;
+   border-radius: 5px;
+}
+.amount{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:50%;
+   
+}
+.amount span{
+   margin: 10px 88px;
+   
+}
+
+.amounttitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:50%;
+    
+   
+}
+.amounttitle span{
+  margin: 10px 40px;
+   font-weight: 700;
+   
+}
+.offers{
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(235, 235, 235);
+    
+}
+.offers ul{
+    
+    
+  list-style-type: none;
+
+
+}
+.offers ul li{
+    
+
+    border-bottom:1px solid rgb(202, 3, 69);
+    
+
+   
+    
+
+}
+.offers ul li{
+        border-bottom:1px solid rgb(218, 218, 218);
+z-index: 999;
+       cursor:pointer;
+        
+    }
+    .offers ul li:hover{
+        background-color:rgb(202, 3, 69) ;
+        color:white;
+        border-bottom:1px solid rgb(153, 89, 89);
+        z-index: 999;
+    
+        
+    }
+.offers ul li>label{
+    
+    font-weight: 700;
+    cursor:pointer;
+
+}
+.offers ul li:hover span{
+   
+    color: rgb(255, 255, 255);;
+    
+}
+.offers ul li span{
+    float: right;
+    color: rgb(202, 3, 69);;
+    font-weight: 600;
+}
+.cancel{
+    
+    color: rgb(173, 154, 154);
+    font-size: 1.5rem;    
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin: 5px 10px;
+    color:rgb(202, 3, 69); ;
+}
+.cancel:focus{
+    
+    border: none;
+    outline: none;
+    
+    
+}
+.cancel-box{
+    display: flex;
+    justify-content: flex-end;
+    
+}

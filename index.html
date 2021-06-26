@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<div class="container my-3">
+
+    <div class="text-center">
+        <h2 class=" " style="font-size:2rem;color: rgb(202, 3, 69);">Foodpanda Billing Page</h2>
+    </div>
+    <div style="width:100%;display:flex; justify-content: center;" >
+        <div class="allitems" style="width: 60%;" >
+            <div class="itemsbox">
+
+                <div class="item-container d-flex justify-content-between align-item-center ">
+                    <div style="width:20%; font-weight: 700; font-size: 1.2rem; display: flex;align-items: center; justify-content: center;">
+                       <span>Shwarma</span>
+                        </div>
+                    <div class="food-items">
+                        <button class="btn-sub">-</button>
+                        <button class="btn-num minus">1</button>
+                        <button class="btn-add">+</button>
+                        <button class="btn-price" disabled>x $ <span>20</span></button>
+                    </div>
+                  
+                        <span class=" bill total-bill">20</span>
+                   </div>
+                   <div class="item-container d-flex justify-content-between align-item-center ">
+                    <div style="width:20%; font-weight: 700; font-size: 1.2rem; display: flex;align-items: center; justify-content: center;">
+                        <span>Biryani</span>
+                         </div>
+                    <div class="food-items">
+                        <button class="btn-sub">-</button>
+                        <button class="btn-num minus">1</button>
+                        <button class="btn-add">+</button>
+                        <button class="btn-price" disabled>x $ <span>15</span></button>
+                    </div>
+                    <span class=" bill total-bill">15</span>
+
+            </div>
+            <div class="item-container d-flex justify-content-between align-item-center ">
+                <div style="width:20%; font-weight: 700; font-size: 1.2rem; display: flex;align-items: center; justify-content: center;">
+                    <span>Burger</span>
+                     </div>
+                <div class="food-items">
+                    <button class="btn-sub">-</button>
+                    <button class="btn-num minus">1</button>
+                    <button class="btn-add">+</button>
+                    <button class="btn-price" disabled>x $ <span>25</span></button>
+                </div>
+                <span class=" bill total-bill">25</span>
+
+        </div>
+            <div class="item-container d-flex justify-content-between align-item-center ">
+                <div style="width:20%; font-weight: 700; font-size: 1.2rem; display: flex;align-items: center; justify-content:center;">
+                    <span>Pasta</span>
+                     </div>
+                <div class="food-items">
+                    <button class="btn-sub">-</button>
+                    <button class="btn-num minus">1</button>
+                    <button class="btn-add">+</button>
+                    <button class="btn-price" disabled>x $ <span>20</span></button>
+                </div>
+                <span class=" bill total-bill">20</span>
+
+        </div>
+        </div>
+            <div class=" paymentbox mt-2" >                
+                <div class="amounttitle">
+                    <span class="">TotalBill</span>
+                    <span class="">discount in %</span>
+                    <span class="">Net Payable</span>
+
+                </div>
+                <div class="amount">
+                    <span class="net-bill">100</span>
+                    <span class="dis-amount">0</span>
+                    <span class="net-payable">0</span>
+
+                </div>
+
+            </div>
+            <div class="billbuttons" >                
+               <button class="discbutton">Discount Offer</button>
+               <button class="OrderNow">Order Now</button>
+
+            </div>
+                    
+               
+
+
+                </div>
+            </div>
+            
+            
+                
+            
+            
+            </div>
+        </div>
+       
+
+    </div>
+
+
+</div>
+
+<div class="offers d-none">
+
+    <div class="cancel-box">
+        <button class="cancel">x</button>
+    </div>
+    <ul class="my-2 mx-4">        
+        <li>
+            <label id="10" for="">Eid Discount</label>
+            <span >10%</span>
+        </li>
+        <li>
+            <label id="5" for="">Regular customer Offer</label>
+            <span >5%</span>
+        </li>
+        <li>
+            <label id="25" for="">Foodpanda Anniversary</label>
+            <span >25%</span>
+        </li>
+    </ul>
+
+</div>
+
+<script src="script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
